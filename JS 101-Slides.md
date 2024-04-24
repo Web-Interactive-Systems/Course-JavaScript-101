@@ -30,21 +30,21 @@ Les variables sont des conteneurs qui stockent des valeurs. Une variable peut co
 
 Les variables en JavaScript sont dynamiquement typées, ce qui signifie qu'une variable peut contenir n'importe quel type de valeur et peut changer de type au cours de l'exécution du programme.
 
-Par exemple, vous pouvez déclarer une variable "x" et lui assigner une valeur initiale de 5, qui sera traitée comme un nombre.
+Par exemple, vous pouvez déclarer une variable `x` et lui assigner une valeur initiale de `5`, qui sera traitée comme un nombre.
 
-Ensuite, vous pouvez changer la valeur de "x" pour une chaîne de caractères comme "Hello", sans avoir à spécifier explicitement le type de données de la variable. Cela rend JavaScript très flexible mais peut parfois entraîner des erreurs si les types de données ne sont pas gérés correctement.
+Ensuite, vous pouvez changer la valeur de `x` pour une chaîne de caractères comme `Hello`, sans avoir à spécifier explicitement le type de données de la variable. Cela rend JavaScript très flexible mais peut parfois entraîner des erreurs si les types de données ne sont pas gérés correctement.
 
 ---
 
 # JS Déclaration de Variable
 
-Vous pouvez déclarer des variables en utilisant les mots-clés **var**, **let** et **const**.
+Vous pouvez déclarer des variables en utilisant les mots-clés `var`, `let` et `const`.
 
 ---
 
 # JS Declaration let
 
-**let** : C'est une manière plus récente de déclarer des variables, introduite dans ES6 (version 2015 de JavaScript - pour faire simple 😇). Les variables déclarées avec **let** sont à portée de bloc, ce qui signifie qu'elles ne sont _visibles_ que dans le bloc dans lequel elles sont déclarées.
+**let** : C'est une manière plus récente de déclarer des variables, introduite dans ES6 (version 2015 de JavaScript - pour faire simple 😇). Les variables déclarées avec `let` sont à portée de bloc, ce qui signifie qu'elles ne sont _visibles_ que dans le bloc dans lequel elles sont déclarées.
 
 ```js
 let variableName = "valeur de la variable";
@@ -56,7 +56,7 @@ let variableName = "valeur de la variable";
 
 **var** : C'est la manière la plus ancienne de déclarer des variables. **Elle n'est pas autant utilisée dans le JavaScript moderne**, mais il est toujours important de la comprendre.
 
-Les variables déclarées avec **var** sont à portée de fonction, ce qui signifie qu'elles ne sont _visibles_ que dans la fonction dans lesquelles sont déclarées. (**var** est un peu compliqué que ça, c’est pourquoi il ne faut pas l’utiliser).
+Les variables déclarées avec `var` sont à portée de fonction, ce qui signifie qu'elles ne sont _visibles_ que dans la fonction dans lesquelles sont déclarées. (`var` est un peu compliqué que ça, c’est pourquoi il ne faut PAS l’utiliser).
 
 ```js
 var variableName = "valeur de la variable";
@@ -66,7 +66,7 @@ var variableName = "valeur de la variable";
 
 # JS Declaration const
 
-**const** : Également introduit dans ES6, **const** est utilisé pour déclarer des constantes, c'est-à-dire des variables qui ne peuvent pas être réaffectées. Comme let, const est également à portée de bloc.
+**const** : Également introduit dans ES6, `const` est utilisé pour déclarer des constantes, c'est-à-dire des variables qui ne peuvent pas être réaffectées. Comme let, const est également à portée de bloc.
 
 ```js
 const variableName; // SyntaxError: Missing initializer in const declaration
@@ -106,7 +106,7 @@ plusieurs lignes
 
 # JS console.log(…)
 
-La fonction console.log() est utilisée pour afficher des sorties dans la console.
+La fonction `console.log()` est utilisée pour afficher des sorties dans la console.
 
 Cela peut être très utile pour le débogage car vous permet de visualiser les valeurs des variables à différents points de votre code, ou d'afficher des messages qui vous aident à comprendre le déroulement de l'exécution de votre code.
 
@@ -380,7 +380,7 @@ const arr3 = ["toto", 3, 2, { a: 2, b: 4 }];
 
 **Tableau littéral :**
 
-C'est la façon la plus courante de créer un tableau. Il utilise des crochets [] et les éléments sont séparés par des virgules.
+C'est la façon la plus courante de créer un tableau. Il utilise des crochets `[]` et les éléments sont séparés par des virgules.
 
 ```js
 const arr1 = [1, 2, 3];
@@ -418,7 +418,7 @@ console.log(fruits[1]); // 'banane'
 console.log(fruits[2]); // 'cerise'
 ```
 
-Ici, 'pomme' est à l'index 0, 'banane' est à l'index 1 et 'cerise' est à l'index 2 dans le tableau de fruits.
+Ici, `pomme` est à l'index `0`, `banane` est à l'index `1` et `cerise` est à l'index `2` dans le tableau de fruits.
 
 ---
 
@@ -543,9 +543,9 @@ Le code JavaScript s'exécute de haut en bas. Parfois, nous devons exécuter cer
 
 ---
 
-Les principles instructions conditionnelles sont : **if(…)**, **else if(…)**, **else**.
+Les principles instructions conditionnelles sont : `if(…)`, `else if(…)`, `else`.
 
-D’autres sont : le **switch(…)** et l’**opérateur ternaire**.
+D’autres sont : le `switch(…)` et l’`opérateur ternaire`.
 
 ---
 
